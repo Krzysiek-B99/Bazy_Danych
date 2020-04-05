@@ -72,4 +72,4 @@ INSERT INTO pensje VALUES(8,'dyrektor generalny',7800,8);
 INSERT INTO pensje VALUES(9,'kierownik projektu',4600,9);
 INSERT INTO pensje VALUES(10,'radaca prawny',5800,10);
 
-select pracownicy.* from pracownicy inner join godziny on godziny.id_pracownika=pracownicy.id_pracownika and godziny.liczba_godzin=28;
+
