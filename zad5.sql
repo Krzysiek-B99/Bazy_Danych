@@ -17,9 +17,8 @@ LEFT JOIN pensje ON pensje.id_pensji = wynagrodzenia.id_pensji
 LEFT JOIN premie ON premie.id_premii = wynagrodzenia.id_premii
 
 SELECT 'Pracownik ' || pracownicy.imie || ' ' || pracownicy.nazwisko || ' w dniu ' ||
-godziny.data1|| ' otrzyma≥ pensje ca≥kowitπ na kwotÍ ' || pensje.kwota + premie.kwota ||
-' gdzie wynagrodzenie zasadnicze wynosi≥o: '|| pensje.kwota || ',a premia: ' || premie.kwota ||
-', nadgodziny: ' || '0 z≥' AS raport FROM wynagrodzenia
+godziny.data1|| ' otrzyma≈Ç pensje ca≈Çkowit≈° na kwotƒô ' || pensje.kwota + premie.kwota ||
+' gdzie wynagrodzenie zasadnicze wynosi≈Ço: '|| pensje.kwota || ',a premia: ' || premie.kwota ||', nadgodziny: ' || '0 z≈Ç' AS raport FROM wynagrodzenia
 INNER JOIN pracownicy ON wynagrodzenia.id_pracownika = pracownicy.id_pracownika 
 JOIN pensje ON pensje.id_pensji = wynagrodzenia.id_pensji 
 JOIN premie ON premie.id_premii = wynagrodzenia.id_premii 
