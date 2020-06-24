@@ -25,6 +25,6 @@ END;
 RETURN @x;
 
 
-CREATE  TRIGGER DML ON AdventureWorks2017.Persons.Person 
+CREATE  TRIGGER DMLtrigg ON AdventureWorks2017.Persons.Person 
 FOR UPDATE AS
 UPDATE Person SET LastName=upper(LastName)
