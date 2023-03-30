@@ -1,1 +1,1 @@
-# Bazy_Danych
+Database Course at AGH
